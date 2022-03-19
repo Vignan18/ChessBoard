@@ -1,0 +1,50 @@
+
+  body {
+    margin: 5%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+  }
+
+#chess-box {
+  width:800px;
+  height:800px;
+  border:1px solid black;
+  display: grid;
+  background-color:white;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+}
+
+
+#chess-box .box:hover{
+  background-color:lightblue;
+}
+
+
+
+#chessbox #box #newid{
+  color:transparent;
+}
+#chess-box div:nth-of-type(16n+16),
+#chess-box div:nth-of-type(16n+14),
+#chess-box div:nth-of-type(16n+12),
+#chess-box div:nth-of-type(16n+10),
+#chess-box div:nth-of-type(16n+7),
+#chess-box div:nth-of-type(16n+5),
+#chess-box div:nth-of-type(16n+3),
+#chess-box div:nth-of-type(16n+1){   
+    background-color:black; 
+}
+
+.my-class {
+  background-color:blue !important;
+}
+
+
+
+.box{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: transparent;
+}
+
